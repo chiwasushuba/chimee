@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Contact Page</title>
+<style>
+    <style>
+    body {background-color:peachpuff}
+
+    hr.new1 {border: 20px dotted red;}
+
+    hr.new2 {border: 2px solid black;}
+</style>
+</style>
 <body>
 
 
@@ -30,11 +41,14 @@ Feel free to fill out the form with your name, email address, and your message. 
 Whether you're inquiring about our products/services, seeking assistance, or simply want to share your thoughts, we're here to make sure your experience with us is exceptional.<br>
 
 <br>
+<hr class="new2">
 <b>Contact Form:</b><br>
 
-[Name] [input field]<br>
-[Email] [input field]<br>
+<form>
+[Name] <input type="text"><br>
+[Email] <input type="text"><br>
 [Message] [textarea]
+</form>
 
 <br>
 Thank you for choosing to connect with us. 
